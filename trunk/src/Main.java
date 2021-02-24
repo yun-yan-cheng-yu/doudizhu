@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("xxx");
+        CardRecorder cardRecorder = new CardRecorder();
+        cardRecorder.showAll();
+        cardRecorder.maybeBomb();
     }
 }
