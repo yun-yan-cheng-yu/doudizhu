@@ -1,3 +1,8 @@
+import ui.frame.FFrame;
+import ui.frame.Frame;
+import ui.panel.FPanel;
+import ui.panel.Panel;
+
 import java.util.Arrays;
 
 public class CardRecorder {//记牌器类
@@ -119,6 +124,11 @@ public class CardRecorder {//记牌器类
         if(!xiaowang) System.out.print("小王  ");
         if(!dawang) System.out.println("大王    ");
         System.out.println("---------------------------------");
+    }
+
+    public void run(){
+        Frame frame = FFrame.creatFrame(3,1);
+        Panel p_dipai = FPanel.creatPanel();
     }
 
     @Override
